@@ -1,0 +1,15 @@
+/Users/kidflamez/AR_VR/Student-Grade-Management-System/bin/Debug/net7.0/StudentGradeManagementSystem
+/Users/kidflamez/AR_VR/Student-Grade-Management-System/bin/Debug/net7.0/StudentGradeManagementSystem.deps.json
+/Users/kidflamez/AR_VR/Student-Grade-Management-System/bin/Debug/net7.0/StudentGradeManagementSystem.runtimeconfig.json
+/Users/kidflamez/AR_VR/Student-Grade-Management-System/bin/Debug/net7.0/StudentGradeManagementSystem.dll
+/Users/kidflamez/AR_VR/Student-Grade-Management-System/bin/Debug/net7.0/StudentGradeManagementSystem.pdb
+/Users/kidflamez/AR_VR/Student-Grade-Management-System/obj/Debug/net7.0/StudentGradeManagementSystem.GeneratedMSBuildEditorConfig.editorconfig
+/Users/kidflamez/AR_VR/Student-Grade-Management-System/obj/Debug/net7.0/StudentGradeManagementSystem.AssemblyInfoInputs.cache
+/Users/kidflamez/AR_VR/Student-Grade-Management-System/obj/Debug/net7.0/StudentGradeManagementSystem.AssemblyInfo.cs
+/Users/kidflamez/AR_VR/Student-Grade-Management-System/obj/Debug/net7.0/StudentGradeManagementSystem.csproj.CoreCompileInputs.cache
+/Users/kidflamez/AR_VR/Student-Grade-Management-System/obj/Debug/net7.0/StudentGradeManagementSystem.sourcelink.json
+/Users/kidflamez/AR_VR/Student-Grade-Management-System/obj/Debug/net7.0/StudentGradeManagementSystem.dll
+/Users/kidflamez/AR_VR/Student-Grade-Management-System/obj/Debug/net7.0/refint/StudentGradeManagementSystem.dll
+/Users/kidflamez/AR_VR/Student-Grade-Management-System/obj/Debug/net7.0/StudentGradeManagementSystem.pdb
+/Users/kidflamez/AR_VR/Student-Grade-Management-System/obj/Debug/net7.0/StudentGradeManagementSystem.genruntimeconfig.cache
+/Users/kidflamez/AR_VR/Student-Grade-Management-System/obj/Debug/net7.0/ref/StudentGradeManagementSystem.dll
