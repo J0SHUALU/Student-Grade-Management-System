@@ -1,144 +1,138 @@
-# Student-Grade-Management-System
-A comprehensive console-based C# application for managing student records and grades. This project demonstrates essential programming concepts including data structures, control flow, functions, and exception handling.
+# Student Grade Management System
 
-## Features
+A complete C# application for managing student records and grades. Includes both console and Windows Forms versions.
 
-The application provides a complete suite of features for managing student grades:
+## 📁 Repository Structure
 
-**Core Functionality**
-- **Add Students**: Register new students with their grades (0-100 scale)
-- **Display All Students**: View all students sorted by grade in descending order
-- **Search Students**: Find a specific student and view their grade and category
-- **Calculate Average**: Compute the average grade across all students
-- **Find Highest/Lowest**: Identify the top and bottom performing students
-- **Update Grades**: Modify a student's grade after registration
-- **Remove Students**: Delete student records from the system
-- **Show Statistics**: View comprehensive statistics including count, average, highest, and lowest grades
+```
+StudentGradeManagementSystem/
+├── Console-Version/          # Works on Mac, Windows, Linux
+├── WindowsForms-Version/     # Windows only (graphical GUI)
+└──  README.md                 # This file
+```
 
-**Grade Categories**
-The system automatically categorizes grades:
+## 🚀 Quick Start
+
+### Console Version (Mac/Windows/Linux)
+
+```bash
+cd Console-Version
+dotnet build
+dotnet run
+```
+
+### Windows Forms Version (Windows Only)
+
+```bash
+cd WindowsForms-Version
+dotnet build
+dotnet run
+```
+
+## ✨ Features
+
+Both versions include all 8 features:
+
+1. **Add Student** - Add student name and grade
+2. **Display All Students** - View all students sorted by grade
+3. **Search Student** - Find a specific student
+4. **Calculate Average** - Get average grade of all students
+5. **Find Highest/Lowest** - See top and bottom grades
+6. **Update Grade** - Change a student's grade
+7. **Remove Student** - Delete a student record
+8. **Show Statistics** - View comprehensive statistics
+
+## 📊 Grade Categories
+
 - **Excellent**: 90-100
 - **Good**: 80-89
 - **Satisfactory**: 70-79
 - **Passing**: 60-69
 - **Failing**: 0-59
 
-## Technical Architecture
+## 💻 Versions
 
-### Data Structures
-The application uses a `Dictionary<string, double>` to store student names and grades, providing efficient O(1) lookup operations for searching and updating records.
+### Console Version
+- ✅ Works on Mac, Windows, Linux
+- ✅ Professional formatted UI with colors
+- ✅ Menu-driven interface
+- ✅ Recommended for Mac users
 
-### Core Classes
+### Windows Forms Version
+- ✅ Graphical GUI with 5 tabs
+- ✅ Professional Windows application
+- ✅ Data grid display
+- ✅ Windows only
 
-**GradeManager.cs** - Business logic layer handling all operations on student data with validation and error handling.
-
-**Student.cs** - Data model class representing individual students with validation.
-
-**GradeCategory.cs** - Enumeration defining the five grade categories.
-
-**ConsoleUI.cs** - User interface layer providing a menu-driven console interface with formatted output.
-
-## Requirements
+## 📋 Requirements
 
 - **.NET 7.0 or higher**
 - **C# 11 or higher**
-- **Windows, macOS, or Linux operating system**
+- **Windows** (for Windows Forms version only)
 
-## Installation and Setup
+## 🎯 Which Version to Use?
 
-### Clone the Repository
+**On Mac/Linux:** Use Console Version
 ```bash
-git clone https://github.com/J0SHUALU/Student-Grade-Management-System.git
-cd Student-Grade-Management-System
-```
-
-### Build the Project
-```bash
-dotnet build
-```
-
-### Run the Application
-```bash
+cd Console-Version
 dotnet run
 ```
 
-## Usage Guide
+**On Windows:** Use either version
+```bash
+# Console
+cd Console-Version
+dotnet run
 
-### Main Menu
-When you launch the application, you'll see the main menu with nine options:
-
-1. **Add a Student** - Enter a student's name and grade (0-100)
-2. **Display All Students** - View all registered students sorted by grade
-3. **Search for a Student** - Find a specific student and view their details
-4. **Calculate Average Grade** - See the average grade of all students
-5. **Find Highest and Lowest Grades** - Identify top and bottom performers
-6. **Update Student Grade** - Modify an existing student's grade
-7. **Remove a Student** - Delete a student record
-8. **Show Statistics** - View comprehensive statistics
-9. **Exit** - Close the application
-
-### Example Workflow
-
-```
-1. Add a Student
-   - Enter name: Joshua
-   - Enter grade: 95
-   
-2. Add a Student
-   - Enter name: Donald
-   - Enter grade: 87
-   
-3. Display All Students
-   - View all students with their grades and categories
-   
-4. Show Statistics
-   - See average, highest, and lowest grades
+# Or Windows Forms (GUI)
+cd WindowsForms-Version
+dotnet run
 ```
 
-## Error Handling
+## 📝 Each Version Includes
 
-The application includes comprehensive error handling for:
+- Complete source code (7-8 C# files)
+- Project configuration (.csproj)
+- Git ignore file (.gitignore)
+- README with instructions
+- All 8 features fully implemented
+- Error handling
+- Input validation
 
-- **Invalid Grades**: Grades outside the 0-100 range are rejected
-- **Empty Names**: Student names cannot be empty or whitespace
-- **Duplicate Students**: Adding a student with an existing name is prevented
-- **Non-existent Students**: Searching or updating non-existent students shows appropriate error messages
-- **Invalid Input**: Non-numeric grade entries are caught and reported
+## 🎬 Demo Video
 
-## Code Quality
 
-The project follows best practices including:
+## 🔧 Build & Run
 
-- **Clear Comments**: Every class and method includes XML documentation
-- **Meaningful Names**: Variables and methods use descriptive names
-- **Separation of Concerns**: Business logic is separated from UI
-- **Input Validation**: All user inputs are validated before processing
-- **Exception Handling**: Try-catch blocks ensure graceful error handling
-
-## Project Structure
-
-```
-StudentGradeManagementSystem/
-├── Program.cs                    # Application entry point
-├── GradeManager.cs              # Business logic layer
-├── Student.cs                   # Student data model
-├── GradeCategory.cs             # Grade category enumeration
-├── ConsoleUI.cs                 # Console UI implementation
-├── StudentGradeManagementSystem.csproj  # Project configuration
-├── .gitignore                   # Git ignore rules
-└── README.md                    # This file
+### Console Version
+```bash
+cd Console-Version
+dotnet build
+dotnet run
 ```
 
-## Testing
+### Windows Forms Version
+```bash
+cd WindowsForms-Version
+dotnet build
+dotnet run
+```
 
-The application has been tested with various scenarios:
+## 📖 Documentation
 
-- Adding multiple students with different grades
-- Searching for existing and non-existing students
-- Calculating statistics with various student counts
-- Updating and removing student records
-- Invalid input handling (negative grades, non-numeric values, duplicate names)
+Each version has its own README with:
+- Installation instructions
+- Usage guide
+- Feature descriptions
+- Troubleshooting
+- Requirements
 
-## License
 
-This project is provided as-is for educational purposes.
+
+## 📄 License
+
+Educational purposes only.
+
+---
+
+**Start with the version that matches your operating system!**
